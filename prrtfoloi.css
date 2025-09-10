@@ -1,0 +1,82 @@
+body{ background-color: #c7fafc ;padding: 20px;
+}
+h1{
+    text-align: center;font-size: 40px;transition: all 1.5 ease ;
+}
+p{
+    text-align: center;font-size: 25px;
+}
+nav{
+    text-align: center;
+}
+h1:hover{
+    text-decoration: underline rgb(0, 115, 255);transform: scale(1.5);
+}
+nav a{padding: 3px;font-weight:bold;
+    border-radius: 10px;text-decoration: none;margin-left: 20px;color:coral;
+}
+nav a:hover{
+    background-color: rgb(0, 157, 255);color: white;
+}
+section{
+    background-color: white;width: 800px;
+    margin:30px auto;border-radius: 10px;
+    padding: 30px; box-shadow: 0 5px 13px black;
+}
+hr{
+    margin: 30px auto;width: 800px;border: 2px solid rgb(0, 98, 255);
+}
+figure{
+    text-align: center;
+}
+figure img{
+    border-radius:50%;
+}
+figcaption{
+    font-size: 25px;
+}
+section ul{
+    text-align: center;
+}
+section h2{
+    border-bottom: 2px rgb(0, 89, 255) solid;
+    padding-bottom:10px ;
+}
+article{
+    background-color: #c7fafc;padding: 20px;margin: 20px;border-left: 4px rgb(0, 145, 255) solid;border-radius: 10px;transition: all 0.5 ease;
+}
+h3{
+    font-size: 35px;
+}
+summary{
+    font-size: 30px;
+}
+ul li,ol{
+    background-color:#c7fafc;margin-bottom: 10px;padding: 10px; text-align: left;
+    font-size: 20px;
+}
+ul,ol{
+    list-style-type: none;
+}
+form{
+    text-align: center;
+}
+input,textarea{
+    width: 100%;
+}
+input{
+    margin: 8px;
+}
+button:hover{
+    background-color: darkgoldenrod;color: white;padding: 10px;margin-left: 20px;border-radius: 6px;
+    text-decoration: underline;box-shadow:0 5px 13px whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+img:hover{
+    box-shadow: 0 5px 13px;
+}
+article:hover{
+    transform: translateX(10px);
+}
